@@ -17,6 +17,7 @@ def hotkey_handling():
     action.start()
 
 def main():
+    
     icon_file_name = "spotipy_icon.png"
     png_file = Image.open(icon_file_name)
 
@@ -29,7 +30,7 @@ def main():
     keyboard.add_hotkey('ctrl+shift+m', hotkey_handling)
 
     icon.run()    
-
+    
 
 if __name__ == "__main__":
     main()

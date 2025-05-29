@@ -4,8 +4,8 @@ from stt import recognize_from_microphone
 import sys
 from spacy_parsing import parse_voice_command
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="here paste your spotify developer client_id",
-                                               client_secret="here paste your spotify developer client_search",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="here paste your spotify client id",
+                                               client_secret="here paste your spotify client secret",
                                                redirect_uri="http://127.0.0.1:8000/callback", #change if needed
                                                scope="user-read-playback-state,user-modify-playback-state"))
 
