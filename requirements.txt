@@ -1,0 +1,5 @@
+spotipy
+azure-cognitiveservices-speech
+pystray 
+keyboard
+spacy
