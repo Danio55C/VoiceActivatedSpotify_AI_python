@@ -45,6 +45,7 @@ def parse_voice_command(text,language):
         [{"LOWER": "add"}, {"LOWER": "to"}, {"LOWER": "the"}, {"LOWER": "queue"}],
         [{"LOWER": "queue"}],
         [{"LOWER": "add"}],
+        [{"LOWER": "append"}],
         [{"LOWER": "dodaj"}, {"LOWER": "do"}, {"LOWER": "kolejki"}],
         [{"LOWER": "kolejka"}],
         [{"LOWER": "dodaj"}]
